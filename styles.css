@@ -1,0 +1,48 @@
+.gold, .gold small {
+  background-color: gold;
+  color: #403600;
+}
+
+.silver, .silver small {
+  background-color: silver;
+  color: #404040;
+}
+
+.oil, .oil small {
+  background-color: black;
+  color: #E5E5E5;
+}
+
+html, body, .container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 33.33333333%;
+}
+
+.row > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.price {
+  padding-right: 5px;
+}
+
+.change::before {
+  content: '(';
+}
+
+.change::after {
+  content: ')';
+}
+
+.price::before {
+  content: '$';
+}
+
+.change:empty, .price:empty {
+  display: none;
+}

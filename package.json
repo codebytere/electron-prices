@@ -1,0 +1,34 @@
+{
+  "name": "electron-prices",
+  "version": "1.0.0",
+  "description": "Simple Electron application that shows the current price of oil, gold, and silver",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "format": "prettier --write *.js",
+    "lint": "prettier --check *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebytere/electron-prices.git"
+  },
+  "keywords": [
+    "electron",
+    "nodejs",
+    "desktop",
+    "app"
+  ],
+  "author": "Shelley Vohr <shelley.vohr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codebytere/electron-prices/issues"
+  },
+  "homepage": "https://github.com/codebytere/electron-prices#readme",
+  "dependencies": {
+    "electron": "^8.2.0"
+  },
+  "devDependencies": {
+    "papaparse": "^5.2.0",
+    "prettier": "^2.0.2"
+  }
+}
