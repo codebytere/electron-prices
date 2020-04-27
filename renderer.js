@@ -1,6 +1,5 @@
 const csv = require('papaparse');
 
-let url;
 const stocks = {
   oil: 'CL.F',
   gold: 'GC.F',
@@ -8,7 +7,7 @@ const stocks = {
 };
 
 for (let symbol in stocks) {
-  url = `https://stooq.com/q/l/?s=${stocks[symbol]}&f=sd2t2ohlc&h&e=csv`;
+  const url = `https://stooq.com/q/l/?s=${stocks[symbol]}&f=sd2t2ohlc&h&e=csv`;
 
   csv.parse(url, {
     download: true,
