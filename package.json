@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/codebytere/electron-prices#readme",
   "dependencies": {
-    "electron": "^39.8.5"
+    "electron": "^42.11.16"
   },
   "devDependencies": {
     "papaparse": "^5.2.0",
